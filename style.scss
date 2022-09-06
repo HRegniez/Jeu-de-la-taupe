@@ -1,0 +1,28 @@
+$clr-prim1: #1c1f21ff;
+$clr-prim2: #3d3d3dff;
+$clr-prim3: #7d2826ff;
+$clr-prim4: #99241eff;
+$clr-prim5: #026c7cff;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.grid {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.carte {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+
+.taupe {
+    background-color: $clr-prim5;
+}

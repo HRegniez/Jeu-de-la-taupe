@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.grid {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carte {
+  height: 200px;
+  width: 200px;
+  border: solid black 1px;
+}
+
+.taupe {
+  background-color: #026c7c;
+}/*# sourceMappingURL=style.css.map */
